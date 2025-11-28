@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pendientes</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 
@@ -14,7 +14,7 @@
 
 <a href="index.html" class="boton">Volver</a>
 
-<script src="js/pedidos.js"></script>
+<script src="pedidos.js"></script>
 <script>
     const pedidos = obtenerPedidos();
     const pend = pedidos.filter(p => p.estado === "no estaba");
@@ -24,4 +24,5 @@
 </script>
 
 </body>
+
 </html>
