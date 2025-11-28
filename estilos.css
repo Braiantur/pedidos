@@ -1,0 +1,79 @@
+body {
+    background: #0d6efd; 
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.menu {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+    
+.boton {
+    display: block;
+    width: 300px;          /* ANCHO GRANDE */
+    padding: 28px;         /* ALTURA GRANDE DEL BOTÓN */
+    margin: 20px auto;     /* CENTRADO + ESPACIO */
+
+    background: white;
+    color: #0d6efd;
+
+    border-radius: 18px;   /* BORDES REDONDOS PRO */
+    font-size: 28px;       /* TEXTO GRANDE */
+    font-weight: bold;
+    text-decoration: none;
+
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.35);  /* SOMBRA PROFESIONAL */
+}
+select, input {
+    width: 90%;              /* más ancho */
+    max-width: 350px;        /* tamaño ideal */
+    padding: 20px;           /* más alto */
+    font-size: 22px;         /* texto grande */
+    border-radius: 12px;     /* bordes redondeados */
+    margin-bottom: 20px;     /* separación */
+    border: none;
+    outline: none;
+}
+
+/* Para que se vean centrados */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+label {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.sugerencias {
+    width: 90%;
+    max-width: 350px;
+    background: white;
+    color: black;
+    margin-top: -10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.item-sugerencia {
+    padding: 12px;
+    font-size: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.item-sugerencia:hover {
+    background: #e9f1ff;
+    cursor: pointer;
+}
