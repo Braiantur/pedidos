@@ -76,4 +76,18 @@ label {
 .item-sugerencia:hover {
     background: #e9f1ff;
     cursor: pointer;
+
+}
+.carpeta-dia {
+    font-size: 22px;
+    padding: 12px;
+    margin: 8px 0;
+    background: #222;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.carpeta-dia:hover {
+    background: #333;
 }
