@@ -2,6 +2,11 @@ function guardarPedido(pedido) {
     let pedidos = JSON.parse(localStorage.getItem("pedidos")) || [];
     pedidos.push(pedido);
     localStorage.setItem("pedidos", JSON.stringify(pedidos));
+    {
+   "2025-11-28": [ lista de pedidos de ese día ],
+   "2025-11-29": [ lista de pedidos de ese día ],
+   "2025-11-30": [ lista del día siguiente ]
+}
 }
 
 function obtenerPedidos() {
@@ -21,4 +26,5 @@ function guardarProductoUsado(producto) {
         productos.push(producto);
         localStorage.setItem("productosUsados", JSON.stringify(productos));
     }
+
 }
